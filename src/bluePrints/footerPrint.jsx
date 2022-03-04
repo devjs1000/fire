@@ -10,25 +10,24 @@ const bluePrint = {
   description: "",
   lists: [
     {
-      title: "work",
+      title: "address",
       list: [
-        { title: "Our Projects" },
-        { title: "Medical & Health" },
-        { title: "Our Projects" },
-        { title: "Medical & Health" },
-        { title: "Our Projects" },
-        { title: "Medical & Health" },
+        { title: "PUNE-26 MAHARASHTRA" },
+       
       ],
     },
     {
-      title: "work",
+      title: "pages",
       list: [
-        { title: "Our Projects" },
-        { title: "Medical & Health" },
-        { title: "Our Projects" },
-        { title: "Medical & Health" },
-        { title: "Our Projects" },
-        { title: "Medical & Health" },
+        { title: "HOME", path:'/' },
+        { title: "CERTIFICATES", path:'/our-certifications' },
+        { title: "PRODUCT GALLERY" , path:'/our-products/gallery'},
+        { title: "PRODUCT DESCRIPTION" , path:'/our-products/description'},
+        { title: "TECHNICAL WRITE UP" , path:'/our-products/technical-write-up'},
+        { title: "INTRODUCTION" , path:'/about-us/introduction'},
+        { title: "MACHINERY LIST" , path:'/about-us/machinery-list'},
+        { title: "ORGANISATIONAL CHART" , path:'/our-team/organisational-chart'},
+
       ],
     },
   ],

@@ -5,28 +5,14 @@ import Slide from "../components/Slide";
 import { SwiperSlide } from "swiper/react";
 import Testimonials from "../components/Testimonials";
 import Hero from "../components/Hero";
+import Main from "../components/Main";
 export default () => {
   return (
     <>
       <Hero />
-      <Slide>
-        {Children.toArray(
-          bluePrint.map((customer) => {
-            return (
-              <SwiperSlide>
-                <ContactCard
-                  name={customer.name}
-                  mobile={customer.mobile}
-                  about={customer.about}
-                  image={customer.image}
-                />
-              </SwiperSlide>
-            );
-          })
-        )}
-      </Slide>
-
-      <Testimonials />
+     
+<Main />
+      {/* <Testimonials /> */}
     </>
   );
 };

@@ -18,13 +18,13 @@ function Navbar() {
 	};
 
 	return (
-		<nav className={"flex gap-3 items-center  px-4 relative xsm:gap-5 md:flex-row md:px-16 "+bluePrint.theme}>
+		<nav className={"flex gap-3 items-center justify-between  px-4 relative xsm:gap-5 md:flex-row md:px-16 "+bluePrint.theme}>
 			<List
 				className="w-8 cursor-pointer text-7xl"
 				onClick={openSidebarHandler}
 			></List>
 
-			<Link to="/">
+			<Link to="/" className='text-4xl'>
 		{bluePrint.brandName}
 			</Link>
 

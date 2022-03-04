@@ -1,5 +1,5 @@
 const bluePrint = {
-  brandName: "fire",
+  brandName: "ART FIT FORGE",
   theme: "text-slate-700 bg-white",
 };
 

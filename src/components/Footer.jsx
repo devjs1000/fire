@@ -1,6 +1,6 @@
 import { Children } from "react";
 import bluePrint from '../bluePrints/footerPrint'
-
+import {Link} from 'react-router-dom'
 
 export default () => {
   return (
@@ -10,10 +10,11 @@ export default () => {
           bluePrint.lists.map((listData) => {
             return (
               <div>
-                <h1>{listData.title}</h1>
+                <h1 className="text-2xl font-bold">{listData.title.toLocaleUpperCase()}</h1>
                 {Children.toArray(
                   listData.list.map((item) => {
-                    return <h3 className="">{item.title}</h3>;
+                    console.log(item);
+                    return <Link to={item?.path || ''} className="block hover:invert-[50%]">{item.title}</Link>;
                   })
                 )}
               </div>
