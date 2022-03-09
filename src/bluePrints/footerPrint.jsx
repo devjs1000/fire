@@ -20,7 +20,6 @@ const bluePrint = {
       title: "pages",
       list: [
         { title: "HOME", path:'/' },
-        { title: "CERTIFICATES", path:'/our-certifications' },
         { title: "PRODUCT GALLERY" , path:'/our-products/gallery'},
         { title: "PRODUCT DESCRIPTION" , path:'/our-products/description'},
         { title: "TECHNICAL WRITE UP" , path:'/our-products/technical-write-up'},

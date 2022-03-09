@@ -9,7 +9,6 @@ import OrganizationalChart from "./pages/team/OrganizationalChart";
 import ProductDescription from "./pages/products/ProductDescription";
 import TechnicalWriteUp from "./pages/products/TechnicalWriteUp";
 import MachineryList from "./pages/About/MachineryList";
-import Certifications from "./pages/Certifications";
 function App() {
   return (
     <div className="App text-slate-700">
@@ -35,10 +34,7 @@ function App() {
           path="/our-team/organisational-chart"
           element={<OrganizationalChart />}
         />
-        <Route
-          path="/our-certifications"
-          element={<Certifications />}
-        />
+       
                
 
       </Routes>

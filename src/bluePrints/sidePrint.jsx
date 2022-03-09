@@ -5,52 +5,38 @@ import {
   People,
   Image,
   HeartHalf,
+  Book,
+  ChatRight,
+  PieChart,
 } from "react-bootstrap-icons";
 
 const bluePrint = [
   {
     name: "Home",
-    icon: House,
+    icon: <House />,
     path: "/",
-    
   },
   {
-    name: "Our Certifications",
-    icon: Journal,
-    path: "/our-certifications",
-    child: [
-      { name: "organisational chart", path: "/our-team/organisational-chart" },
-    ],
+    name: "organisational chart",
+    icon: <PieChart />,
+    path: "/our-team/organisational-chart",
   },
-  {
-    name: "Our Products",
-    icon: Hammer,
-    path: "/our-products",
-    child: [
-      { name: "product gallery", path: "/our-products/gallery" },
-      { name: "product description", path: "/our-products/description" },
-      { name: "technical write up", path: "/our-products/technical-write-up" },
 
-    ],
+
+  { name: "product gallery", icon: <Hammer />, path: "/our-products/gallery" },
+  {
+    name: "product description",
+    icon: <Hammer />,
+    path: "/our-products/description",
   },
   {
-    name: "About Us",
-    icon: People,
-    path: "/about-us",
-    child: [
-      { name: "Introduction", path: "/about-us/introduction" },
-      { name: "Machinery List", path: "/about-us/machinery-list" },
-    ],
+    name: "technical write up",
+    icon: <Hammer />,
+    path: "/our-products/technical-write-up",
   },
-  
-  {
-    name: "Our Team",
-    icon: HeartHalf,
-    path: "/our-team",
-    child: [
-      { name: "organizational chart", path: "/our-team/organisational-chart" },
-    ],
-  },
+
+  { name: "Introduction", icon: <People />, path: "/about-us/introduction" },
+  { name: "Machinery List", icon: <Book />, path: "/about-us/machinery-list" },
 ];
 
 export default bluePrint;

@@ -7,7 +7,7 @@ export default () => {
     <>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:cols-auto">
         {Children.toArray(bluePrint.map((a) => {
-            return <ProductCard title={a.title} about={'about'} image={a.image}/>
+            return <ProductCard title={a.title} about={a.about} image={a.image}/>
         }))}
       </div>
     </>

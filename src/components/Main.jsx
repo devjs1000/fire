@@ -11,10 +11,15 @@ import fluidcontrol from "../images/fluidcontrol.png";
 import alfalaval from "../images/alfalaval.png";
 import EmailUs from "./EmailUs";
 import advantageImg from "../images/advantage.jpg";
+import Certifications from "./Certifications";
+
 export default () => {
   return (
     <div>
-      <h1 className="sm:text-5xl text-4xl my-5 font-semibold text-center">Why Choose Us?</h1>
+      <h1 className="sm:text-5xl text-4xl my-5 font-semibold text-center">
+        Why Choose Us?
+      </h1>
+
       <Explain
         about={[
           "Large production capacity.",
@@ -25,7 +30,15 @@ export default () => {
         title={"COMPETITIVE ADVANTAGE"}
         image={advantageImg}
       />
-      <h2 className="text-4xl font-semibold text-center my-5">OUR MAJOR CLIENT</h2>
+
+<h2 className="text-4xl font-semibold text-center my-5">
+  CERTIFIED BY
+      </h2>
+<Certifications />
+
+      <h2 className="text-4xl font-semibold text-center my-5">
+        OUR MAJOR CLIENT
+      </h2>
       <marquee className="flex h-[5rem]  my-10">
         <img
           src={thermax}
@@ -75,7 +88,7 @@ export default () => {
         />
       </marquee>
 
-<EmailUs />
+      <EmailUs />
       <div className="my-10 sm:mx-7">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d557.7340782244673!2d73.83257455211381!3d18.624073864317527!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2b87cf4236f01%3A0x2dfc9e321cd1de75!2sArt%20Fit%20Forge!5e0!3m2!1sen!2sin!4v1646302863752!5m2!1sen!2sin"
